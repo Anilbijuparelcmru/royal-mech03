@@ -1,0 +1,93 @@
+>> [1,2,3,4]
+[1, 2, 3, 4]
+>>> l.insert(5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'l' is not defined
+>>> l=[1,2,3,4]
+>>> l
+[1, 2, 3, 4]
+>>> l.insert(5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: insert() takes exactly 2 arguments (1 given)
+>>> l.append(5)
+>>> l
+[1, 2, 3, 4, 5]
+>>> 
+>>> q=[1,2,3,4,5,6]
+>>> q
+[1, 2, 3, 4, 5, 6]
+>>> q.append([6,7])
+>>> l
+[1, 2, 3, 4, 5]
+>>> 
+>>> q=[1,2,3,4]
+>>> q
+[1, 2, 3, 4]
+>>> q.append([5,6])
+>>> q
+[1, 2, 3, 4, [5, 6]]
+>>> 
+>>> f=['a','b','c','d']
+>>> f.index('a')
+0
+>>> f.index('d')
+3
+>>> f.index('c')
+2
+>>> f.index('b')
+1
+>>> 
+>>> a.insert(4,'e')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> f.insert(4,'e')
+>>> 
+>>> h=['a','b','c','d']
+>>> h.index(4,'e')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: slice indices must be integers or have an __index__ method
+>>> h=['a','b','c','d','e']
+>>> h.insert
+<built-in method insert of list object at 0x7f30c21e2c88>
+>>> h.insert(4,'e')
+>>> 
+>>> h=['a','b','c','d']
+>>> h.insert(4,'e')
+>>> h=['a','b','c','d']
+>>> h
+['a', 'b', 'c', 'd']
+>>> h.insert(4,'e')
+>>> h
+['a', 'b', 'c', 'd', 'e']
+>>> h.remove('e')
+>>> h
+['a', 'b', 'c', 'd']
+>>> h.count('c')
+1
+>>> i=['a','b','c,'d',e','f']
+  File "<stdin>", line 1
+    i=['a','b','c,'d',e','f']
+                   ^
+SyntaxError: invalid syntax
+>>> i=['a','b','c,'d','e','f']
+  File "<stdin>", line 1
+    i=['a','b','c,'d','e','f']
+                   ^
+SyntaxError: invalid syntax
+>>> i=['a','b','c','d','e','f']
+>>> i+=['g','h']
+>>> i
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+>>> 
+>>> d=[9,10]
+>>> d*=2
+>>> d
+[9, 10, 9, 10]
+>>> d*=4
+>>> d
+[9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10]
+
